@@ -9,7 +9,7 @@ do
     Console.WriteLine("ingrese precio: ");validarPrecio = decimal.TryParse(Console.ReadLine(), out precio);
     if (validarPrecio && precio > 0)
     {
-        Console.WriteLine("Precio ingresado: " + precio);
+        Console.WriteLine($"Precio ingresado: {precio:F2}");
     }
     else
     {
