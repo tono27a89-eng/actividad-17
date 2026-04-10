@@ -8,8 +8,7 @@ do
     Console.WriteLine("ingrese edad: ");validaredad= int.TryParse(Console.ReadLine(), out edad);
     if (validaredad&&edad>0)
     {
-        Console.WriteLine("Edad ingresada: " + edad);
-        validaredad= true;
+        Console.WriteLine("Edad ingresada: " + edad);        
     }
     else
     {
