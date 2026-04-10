@@ -6,13 +6,15 @@ bool validaredad=false;
 do
 {
     Console.WriteLine("ingrese edad: ");validaredad= int.TryParse(Console.ReadLine(), out edad);
-    if (validaredad)
+    if (validaredad&&edad>0)
     {
         Console.WriteLine("Edad ingresada: " + edad);
+        validaredad= true;
     }
     else
     {
         Console.WriteLine("Valor ingresado no es un número entero válido. Intente nuevamente.");
+        validaredad= false;
     }
 
     }
