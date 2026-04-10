@@ -17,3 +17,4 @@ do
         validarFecha = false;
     }
 }
+while (validarFecha != true);
