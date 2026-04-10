@@ -25,6 +25,7 @@ do
         }
         foreach (var item in productos)
         {
+            Console.WriteLine($"nombre de producto: {item.Item1} precio: {item.Item2:C}");
             Console.WriteLine($"{item.Item1}: {item.Item2:C}");
         }
     }
